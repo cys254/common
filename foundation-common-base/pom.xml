@@ -40,6 +40,16 @@
                 <role>Developer</role>
             </roles>
         </developer>
+        <developer>
+            <id>yaogen</id>
+            <name>Yair Ogen</name>
+            <email>yaogen@cisco.com</email>
+            <organization>Cisco</organization>
+            <organizationUrl>http://www.cisco.com</organizationUrl>
+            <roles>
+                <role>Developer</role>
+            </roles>
+        </developer>
     </developers>
     <properties>
         <base-vss-version>0.0.0-2-SNAPSHOT</base-vss-version>
