@@ -68,7 +68,7 @@
         <commons-io-version>2.4</commons-io-version>
         <commons-version>${base-vss-version}</commons-version>
         <guava-version>15.0</guava-version>
-        <jetty-version>9.1.1.v20140108</jetty-version>
+        <jetty-version>9.1.2.v20140210</jetty-version>
         <javaVersion>1.7</javaVersion>
     </properties>
     <scm>
