@@ -72,10 +72,10 @@
         <javaVersion>1.7</javaVersion>
     </properties>
     <scm>
-        <connection>scm:git:git://github.com/foundation-runtime/common/tree/master/foundation-common-base</connection>
-        <developerConnection>scm:git:git://github.com/foundation-runtime/common/tree/master/foundation-common-base
-        </developerConnection>
-        <url>https://github.com/foundation-runtime/common/tree/master/foundation-common-base</url>
+        <connection>scm:git:ssh://github.com:foundation-runtime/common.git</connection>
+        <developerConnection>scm:git:ssh://git@github.com:foundation-runtime/common.git</developerConnection>
+        <url>https://github.com/foundation-runtime/common.git</url>
+        <tag>HEAD</tag>
     </scm>
     <organization>
         <name>Cisco</name>
