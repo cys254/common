@@ -12,7 +12,7 @@
     <packaging>pom</packaging>
     <name>foundation-common-base</name>
     <version>0.0.0-2-SNAPSHOT</version>
-    <description>This project is...</description>
+    <description>This project is base pom for vss foundation runtime libraries</description>
     <url>https://github.com/foundation-runtime/common/tree/master/foundation-common-base</url>
     <licenses>
         <license>

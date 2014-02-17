@@ -10,7 +10,7 @@
     <artifactId>commons</artifactId>
     <name>commons</name>
     <version>0.0.0-2-SNAPSHOT</version>
-    <description>This project is...</description>
+    <description>This project is the foundation runtime commons project.</description>
     <url>https://github.com/foundation-runtime/common/commons</url>
     <licenses>
         <license>
@@ -30,19 +30,20 @@
     <developers>
         <developer>
             <id>yogen</id>
-            <name>{your full name}</name>
+            <name>Yair Ogen</name>
             <email>yaogen@cisco.com</email>
             <organization>Cisco</organization>
             <organizationUrl>http://www.cisco.com</organizationUrl>
             <roles>
-                <role>{your role}</role>
+                <role>Developer</role>
             </roles>
         </developer>
     </developers>
     <scm>
-        <connection>scm:git:git://github.com/foundation-runtime/common/tree/master/commons</connection>
-        <developerConnection>scm:git:git://github.com/foundation-runtime/common/tree/master/commons</developerConnection>
-        <url>https://github.com/foundation-runtime/common/tree/master/commons</url>
+        <connection>scm:git:ssh://github.com:foundation-runtime/common.git</connection>
+        <developerConnection>scm:git:ssh://git@github.com:foundation-runtime/common.git</developerConnection>
+        <url>https://github.com/foundation-runtime/common.git</url>
+        <tag>HEAD</tag>
     </scm>
     <organization>
         <name>Cisco</name>
