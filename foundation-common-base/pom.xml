@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd"
-         xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <parent>
         <groupId>org.sonatype.oss</groupId>
         <artifactId>oss-parent</artifactId>
@@ -11,7 +10,7 @@
     <artifactId>foundation-common-base</artifactId>
     <packaging>pom</packaging>
     <name>foundation-common-base</name>
-    <version>0.0.0-2-SNAPSHOT</version>
+    <version>0.0.0-2</version>
     <description>This project is base pom for vss foundation runtime libraries</description>
     <url>https://github.com/foundation-runtime/common/tree/master/foundation-common-base</url>
     <licenses>
@@ -27,7 +26,7 @@
         <url>{URL in JIRA or Product name in CQ}</url>
     </issueManagement>
     <mailingLists>
-        <mailingList/>
+        <mailingList />
     </mailingLists>
     <developers>
         <developer>
@@ -75,7 +74,7 @@
         <connection>scm:git:git@github.com:foundation-runtime/common.git</connection>
         <developerConnection>scm:git:git@github.com:foundation-runtime/common.git</developerConnection>
         <url>https://github.com/foundation-runtime/common.git</url>
-        <tag>HEAD</tag>
+        <tag>foundation-common-base-0.0.0-2</tag>
     </scm>
     
     <organization>
@@ -84,7 +83,7 @@
     </organization>
     <build>
         <pluginManagement>
-            <plugins/>
+            <plugins />
         </pluginManagement>
         <plugins>
             <plugin>
