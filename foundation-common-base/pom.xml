@@ -51,7 +51,7 @@
         </developer>
     </developers>
     <properties>
-        <base-vss-version>0.0.0-2-SNAPSHOT</base-vss-version>
+        <base-vss-version>0.0.0-3-SNAPSHOT</base-vss-version>
         <spring-version>4.0.0.RELEASE</spring-version>
         <commons-lang-version>3.1</commons-lang-version>
         <commons-configuration-version>1.10</commons-configuration-version>
