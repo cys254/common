@@ -6,7 +6,7 @@
         <version>7</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
-    <groupId>com.cisco.vss.foundation</groupId>
+    <groupId>com.cisco.oss.foundation</groupId>
     <artifactId>foundation-common-base</artifactId>
     <packaging>pom</packaging>
     <name>foundation-common-base</name>

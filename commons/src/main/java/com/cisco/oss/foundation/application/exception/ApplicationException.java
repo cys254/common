@@ -1,4 +1,4 @@
-package com.cisco.vss.foundation.application.exception;
+package com.cisco.oss.foundation.application.exception;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -13,24 +13,24 @@ import java.util.List;
  * @author Yair Ogen
  * @author Joel Gurfinkel
  */
-public class RuntimeApplicationException extends RuntimeException implements ApplicationExceptionInterface {
-
-	private static final long serialVersionUID = 6167023793706785078L;
+public class ApplicationException extends Exception implements ApplicationExceptionInterface {
 
 	private final List<ErrorCodeInterface> errorCodes = new ArrayList<ErrorCodeInterface>(5);
 
-	public RuntimeApplicationException(final String message, final Throwable cause) {
+	private static final long serialVersionUID = -4043082316087703586L;
+
+	public ApplicationException(final String message, final Throwable cause) {
 		super(message, cause);
 		ErrorCodeUtil.INSTANCE.updateErrorDetails(cause, errorCodes);
 
 	}
 
-	public RuntimeApplicationException(final String message, final ErrorCodeInterface errorCode) {
+	public ApplicationException(final String message, final ErrorCodeInterface errorCode) {
 		super(message);
 		errorCodes.add(errorCode);
 	}
 
-	public RuntimeApplicationException(final String message, final Throwable cause, final ErrorCodeInterface errorCode) {
+	public ApplicationException(final String message, final Throwable cause, final ErrorCodeInterface errorCode) {
 		super(message, cause);
 		ErrorCodeUtil.INSTANCE.updateErrorDetails(cause, errorCodes);
 		errorCodes.add(errorCode);

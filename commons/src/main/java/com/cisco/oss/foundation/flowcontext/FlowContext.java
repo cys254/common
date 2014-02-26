@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.cisco.vss.foundation.flowcontext;
+package com.cisco.oss.foundation.flowcontext;
 
 import java.io.Serializable;
 

@@ -1,4 +1,4 @@
-package com.cisco.vss.foundation.environment.utils;
+package com.cisco.oss.foundation.environment.utils;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.Modifier;

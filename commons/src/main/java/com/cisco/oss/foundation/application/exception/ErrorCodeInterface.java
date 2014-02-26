@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.cisco.vss.foundation.application.exception;
+package com.cisco.oss.foundation.application.exception;
 
 import java.io.Serializable;
 

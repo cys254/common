@@ -1,4 +1,4 @@
-package com.cisco.vss.foundation.application.exception;
+package com.cisco.oss.foundation.application.exception;
 
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;

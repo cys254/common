@@ -1,4 +1,4 @@
-package com.cisco.vss.foundation.application.exception;
+package com.cisco.oss.foundation.application.exception;
 
 /** 
  * Method that give information of the exception cause.
