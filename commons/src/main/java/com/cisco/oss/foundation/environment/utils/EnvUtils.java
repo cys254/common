@@ -23,8 +23,7 @@ import java.util.Map;
 
 /**
  * utility yp update environemnt variables in the system via code.
- * useful for affecting CCP_ENABLED variables and others.
- * @author yogen
+ * @author Yair Ogen
  *
  */
 public final class EnvUtils {
