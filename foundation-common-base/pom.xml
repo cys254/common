@@ -69,7 +69,7 @@
     <properties>
         <base-vss-version>0.0.0-3-SNAPSHOT</base-vss-version>
         <spring-version>4.0.0.RELEASE</spring-version>
-        <commons-lang-version>3.1</commons-lang-version>
+        <commons-lang-version>3.3</commons-lang-version>
         <commons-configuration-version>1.10</commons-configuration-version>
         <http-server-api-version>${base-vss-version}</http-server-api-version>
         <http-client-apache-version>${base-vss-version}</http-client-apache-version>
@@ -82,7 +82,7 @@
         <junit-version>4.11</junit-version>
         <commons-io-version>2.4</commons-io-version>
         <commons-version>${base-vss-version}</commons-version>
-        <guava-version>15.0</guava-version>
+        <guava-version>16.0.1</guava-version>
         <jetty-version>9.1.2.v20140210</jetty-version>
         <javaVersion>1.7</javaVersion>
     </properties>
