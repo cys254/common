@@ -85,6 +85,8 @@
         <guava-version>16.0.1</guava-version>
         <jetty-version>9.1.2.v20140210</jetty-version>
         <javaVersion>1.7</javaVersion>
+        <monitoring-api-version>${base-vss-version}</monitoring-api-version>
+        <monitoring-jmx-lib-version>${base-vss-version}</monitoring-jmx-lib-version>
     </properties>
     <scm>
         <connection>scm:git:git@github.com:foundation-runtime/common.git</connection>
