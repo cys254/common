@@ -27,7 +27,7 @@ public class BoyerMoore {
 	/**
 	 * An array that contains last location in the pattern for every character in the pattern.
 	 */
-    private int[] lastLocaiton;
+    private int[] lastLocation;
     
     /**
      * The pattern to search - should be given in the contructor.
@@ -52,12 +52,12 @@ public class BoyerMoore {
      */
     public BoyerMoore(String pattern) {
         this.pattern = pattern;
-        lastLocaiton = new int[256];
-        for (int i = 0; i<lastLocaiton.length; i++){
-        	lastLocaiton[i] = -1;
+        lastLocation = new int[256];
+        for (int i = 0; i< lastLocation.length; i++){
+        	lastLocation[i] = -1;
         }
         for (int i=0;i<pattern.length(); i++){
-        	lastLocaiton[pattern.charAt(i)]=i;
+        	lastLocation[pattern.charAt(i)]=i;
         }
 	
     }
@@ -76,7 +76,7 @@ public class BoyerMoore {
             skip = 0;
             for (int j =p-1;j>= 0;j--) { //index of the pattern to search
                 if (pattern.charAt(j) != txt.charAt(i+j)) {
-                    skip = Math.max(1,j-lastLocaiton[txt.charAt(i+j)]);
+                    skip = Math.max(1,j- lastLocation[txt.charAt(i+j)]);
                     break;
                 }
             }
