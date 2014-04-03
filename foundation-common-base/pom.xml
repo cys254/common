@@ -83,7 +83,7 @@
         <commons-io-version>2.4</commons-io-version>
         <commons-version>${base-vss-version}</commons-version>
         <guava-version>16.0.1</guava-version>
-        <jetty-version>9.1.2.v20140210</jetty-version>
+        <jetty-version>9.1.3.v20140225 </jetty-version>
         <javaVersion>1.7</javaVersion>
         <monitoring-api-version>${base-vss-version}</monitoring-api-version>
         <monitoring-jmx-lib-version>${base-vss-version}</monitoring-jmx-lib-version>
