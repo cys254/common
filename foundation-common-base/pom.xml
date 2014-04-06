@@ -180,6 +180,7 @@
                 <configuration>
                     <source>${javaVersion}</source>
                     <target>${javaVersion}</target>
+                    <compilerVersion>${javaVersion}</compilerVersion>
                     <encoding>UTF-8</encoding>
                     <showDeprecation>false</showDeprecation>
                     <showWarnings>false</showWarnings>
