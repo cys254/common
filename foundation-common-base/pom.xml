@@ -72,8 +72,8 @@
         <commons-lang-version>3.3</commons-lang-version>
         <commons-configuration-version>1.10</commons-configuration-version>
         <http-server-api-version>${base-vss-version}</http-server-api-version>
-        <http-client-apache-version>${base-vss-version}</http-client-apache-version>
-        <logging-api-version>${base-vss-version}</logging-api-version>
+        <http-client-apache-version>0.0.0-8</http-client-apache-version>
+        <logging-api-version>0.0.0-6</logging-api-version>
         <logging-log4j-version>${base-vss-version}</logging-log4j-version>
         <configuration-api-version>${base-vss-version}</configuration-api-version>
         <configuration-lib-version>${base-vss-version}</configuration-lib-version>
