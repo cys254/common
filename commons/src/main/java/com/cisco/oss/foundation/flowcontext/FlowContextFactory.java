@@ -40,7 +40,7 @@ public final class FlowContextFactory {
      * @return The flowContext that is now in the ThreadLocal
      */
 
-    public static synchronized FlowContext createFlowContext() {
+    public static FlowContext createFlowContext() {
         final FlowContext flowContext = new FlowContextImpl();
         addFlowContext(flowContext);
         return flowContext;
