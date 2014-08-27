@@ -86,6 +86,19 @@ public enum FlowContextGenerator {
 	private FlowContextGenerator() {
 	}
 
+
+    final private static char[] hexArray = "0123456789ABCDEF".toCharArray();
+
+    private static String bytesToHex(byte[] bytes) {
+        char[] hexChars = new char[bytes.length * 2];
+        for ( int j = 0; j < bytes.length; j++ ) {
+            int v = bytes[j] & 0xFF;
+            hexChars[j * 2] = hexArray[v >>> 4];
+            hexChars[j * 2 + 1] = hexArray[v & 0x0F];
+        }
+        return new String(hexChars);
+    }
+
 	public String getNextFlowContext() {
 		int time = (int) (System.currentTimeMillis() / 1000);
 		int machine = _genmachine;
@@ -101,25 +114,7 @@ public enum FlowContextGenerator {
 		byteBuffer.putInt(machine);
 		byteBuffer.putInt(inc);
 
-		StringBuilder buf = new StringBuilder(24);
-
-        for(byte b: bytes ){
-            int x = b & 0xFF;
-            String s = Integer.toHexString(x);
-            if (s.length() == 1) buf.append("0");
-            buf.append(s);
-        }
-
-//		for (int i = 0; i < bytes.length; i++) {
-//			int x = bytes[i] & 0xFF;
-//			String s = Integer.toHexString(x);
-//			if (s.length() == 1)
-//				buf.append("0");
-//			buf.append(s);
-//		}
-
-		return buf.toString();
-
+		return bytesToHex(bytes);
 	}
 
 }
