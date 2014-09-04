@@ -15,11 +15,12 @@
   ~  limitations under the License.
   -->
 
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <parent>
-		<groupId>com.cisco.oss.foundation</groupId>
-		<artifactId>foundation-common-base</artifactId>
-		<version>0.0.0-5</version>
+        <groupId>com.cisco.oss.foundation</groupId>
+        <artifactId>foundation-common-base</artifactId>
+        <version>0.0.0-5</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.cisco.oss.foundation</groupId>
@@ -41,7 +42,7 @@
         <url>{URL in JIRA or Product name in CQ}</url>
     </issueManagement>
     <mailingLists>
-        <mailingList />
+        <mailingList/>
     </mailingLists>
     <developers>
         <developer>
@@ -56,8 +57,9 @@
         </developer>
     </developers>
     <properties>
+        <javaVersion>1.6</javaVersion>
         <slf4j-version>1.7.7</slf4j-version>
-            </properties>
+    </properties>
     <scm>
         <connection>scm:git:git@github.com:foundation-runtime/common.git</connection>
         <developerConnection>scm:git:git@github.com:foundation-runtime/common.git</developerConnection>
@@ -70,7 +72,7 @@
     </organization>
     <build>
         <pluginManagement>
-            <plugins />
+            <plugins/>
         </pluginManagement>
         <plugins>
         </plugins>
@@ -87,5 +89,5 @@
             <version>${slf4j-version}</version>
             <scope>test</scope>
         </dependency>
-    </dependencies>	
+    </dependencies>
 </project>
