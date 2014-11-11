@@ -26,7 +26,7 @@
     <artifactId>foundation-common-base</artifactId>
     <packaging>pom</packaging>
     <name>foundation-common-base</name>
-    <version>1.0.0-1-SNAPSHOT</version>
+    <version>1.0.0-1</version>
     <description>This project is base pom for vss foundation runtime libraries</description>
     <url>https://github.com/foundation-runtime/common/tree/master/foundation-common-base</url>
     <licenses>
@@ -82,7 +82,7 @@
         <connection>scm:git:git@github.com:foundation-runtime/common.git</connection>
         <developerConnection>scm:git:git@github.com:foundation-runtime/common.git</developerConnection>
         <url>https://github.com/foundation-runtime/common.git</url>
-        <tag>HEAD</tag>
+        <tag>foundation-common-base-1.0.0-1</tag>
     </scm>
     
     <organization>
