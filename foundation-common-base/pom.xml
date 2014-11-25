@@ -58,7 +58,7 @@
     </developers>
     <properties>
         <base-vss-version>1.0.0-1</base-vss-version>
-        <spring-version>4.1.1.RELEASE</spring-version>
+        <spring-version>4.1.2.RELEASE</spring-version>
         <commons-lang-version>3.3.2</commons-lang-version>
         <commons-configuration-version>1.10</commons-configuration-version>
         <http-server-api-version>1.0.2-2</http-server-api-version>
