@@ -73,7 +73,7 @@
         <commons-io-version>2.4</commons-io-version>
         <commons-version>1.0.2-1</commons-version>
         <guava-version>18.0</guava-version>
-        <jetty-version>9.2.4.v20141103</jetty-version>
+        <jetty-version>9.2.9.v20150224</jetty-version>
         <javaVersion>1.7</javaVersion>
         <monitoring-api-version>1.0.2-2</monitoring-api-version>
         <monitoring-jmx-lib-version>1.0.2-2</monitoring-jmx-lib-version>
