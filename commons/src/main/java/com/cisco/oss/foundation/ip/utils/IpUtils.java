@@ -46,7 +46,7 @@ public class IpUtils {
             try {
                 localHost = java.net.InetAddress.getLocalHost();
             } catch (UnknownHostException e) {
-                LOGGER.error("Can not get local host address. exception is: " + e);
+                LOGGER.error("Cannot get local host address. exception is: " + e);
                 localHost = null;
                 hostName = "UNKNOWN";
                 ipAddress = "UNKNOWN";
