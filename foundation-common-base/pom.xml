@@ -26,7 +26,7 @@
     <artifactId>foundation-common-base</artifactId>
     <packaging>pom</packaging>
     <name>foundation-common-base</name>
-    <version>1.0.1-2</version>
+    <version>1.0.1-3-SNAPSHOT</version>
     <description>This project is base pom for vss foundation runtime libraries</description>
     <url>https://github.com/foundation-runtime/common/tree/master/foundation-common-base</url>
     <licenses>
@@ -58,16 +58,16 @@
     </developers>
     <properties>
         <base-vss-version>1.0.0-1</base-vss-version>
-        <spring-version>4.1.2.RELEASE</spring-version>
+        <spring-version>4.1.6.RELEASE</spring-version>
         <commons-lang-version>3.3.2</commons-lang-version>
         <commons-configuration-version>1.10</commons-configuration-version>
-        <http-server-api-version>1.0.2-2</http-server-api-version>
-        <http-client-apache-version>1.0.2-4</http-client-apache-version>
+        <http-server-api-version>1.0.3-2</http-server-api-version>
+        <http-client-apache-version>1.1.0-2</http-client-apache-version>
         <logging-api-version>1.0.2-1</logging-api-version>
         <logging-log4j-version>1.0.2-1</logging-log4j-version>
-        <configuration-api-version>1.0.2-2</configuration-api-version>
+        <configuration-api-version>1.0.2-4</configuration-api-version>
         <configuration-lib-version>1.0.3-1</configuration-lib-version>
-        <http-client-api-version>1.0.2-2</http-client-api-version>
+        <http-client-api-version>1.1.0-2</http-client-api-version>
         <slf4j-version>1.7.7</slf4j-version>
         <junit-version>4.11</junit-version>
         <commons-io-version>2.4</commons-io-version>
@@ -75,8 +75,8 @@
         <guava-version>18.0</guava-version>
         <jetty-version>9.2.10.v20150310</jetty-version>
         <javaVersion>1.7</javaVersion>
-        <monitoring-api-version>1.0.2-2</monitoring-api-version>
-        <monitoring-jmx-lib-version>1.0.2-2</monitoring-jmx-lib-version>
+        <monitoring-api-version>1.0.3-1</monitoring-api-version>
+        <monitoring-jmx-lib-version>1.0.3-1</monitoring-jmx-lib-version>
     </properties>
     <scm>
         <connection>scm:git:git@github.com:foundation-runtime/common.git</connection>
