@@ -199,7 +199,7 @@
                 <configuration>
                     <autoVersionSubmodules>true</autoVersionSubmodules>
                     <useReleaseProfile>false</useReleaseProfile>
-                    <releaseProfiles>release</releaseProfiles>
+                    <releaseProfiles>cisco-oss-release</releaseProfiles>
                     <goals>deploy</goals>
                 </configuration>
             </plugin>
