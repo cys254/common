@@ -181,7 +181,7 @@
                 <version>1.6.5</version>
                 <extensions>true</extensions>
                 <configuration>
-                    <serverId>nexus-staging-maven-plugin</serverId>
+                    <serverId>sonatype-nexus-staging</serverId>
                     <nexusUrl>https://oss.sonatype.org/</nexusUrl>
                     <autoReleaseAfterClose>true</autoReleaseAfterClose>
                 </configuration>
