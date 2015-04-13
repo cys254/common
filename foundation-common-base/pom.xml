@@ -59,7 +59,7 @@
     <properties>
         <base-vss-version>1.0.0-1</base-vss-version>
         <spring-version>4.1.6.RELEASE</spring-version>
-        <commons-lang-version>3.3.2</commons-lang-version>
+        <commons-lang-version>3.4</commons-lang-version>
         <commons-configuration-version>1.10</commons-configuration-version>
         <http-server-api-version>1.0.3-2</http-server-api-version>
         <http-client-apache-version>1.1.0-2</http-client-apache-version>
