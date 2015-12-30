@@ -15,7 +15,9 @@ public class SystemVersionFactory {
 
     public static void setSystemVersion(String systemVersion){
         SYSTEM_VERSION_THREAD_LOCAL.set(systemVersion);
-        MDC.put("systemVersion",systemVersion);
+        if (systemVersion != null) {
+            MDC.put("systemVersion",systemVersion);
+        }
     }
 
     public static String getSystemVersion(){
