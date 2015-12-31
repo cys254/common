@@ -68,7 +68,7 @@
         <configuration-api-version>1.0.2-4</configuration-api-version>
         <configuration-lib-version>1.0.3-1</configuration-lib-version>
         <http-client-api-version>1.1.0-2</http-client-api-version>
-        <slf4j-version>1.7.7</slf4j-version>
+        <slf4j-version>1.7.13</slf4j-version>
         <junit-version>4.11</junit-version>
         <commons-io-version>2.4</commons-io-version>
         <commons-version>1.0.2-1</commons-version>
