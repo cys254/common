@@ -107,14 +107,13 @@ final class FlowContextImpl implements FlowContext {
     @Override
     public String toString() {
 
-        final StringBuilder builder = new StringBuilder("[");
+        final StringBuilder builder = new StringBuilder();
         builder.append(uniqueId);
         if (showTxCounter) {
             if (innerTxCounter.get() != 0) {
                 builder.append(TX_DELIM).append(innerTxCounter);
             }
         }
-        builder.append(']');
         return builder.toString();
     }
 
