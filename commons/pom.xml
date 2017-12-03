@@ -56,7 +56,7 @@
         </developer>
     </developers>
     <properties>
-        <!--<javaVersion>1.6</javaVersion>-->
+        <javaVersion>1.8</javaVersion>
         <foundation-common-base-version>1.0.1-5</foundation-common-base-version>
         <slf4j-version>1.7.13</slf4j-version>
     </properties>
