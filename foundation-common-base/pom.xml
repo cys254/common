@@ -74,7 +74,7 @@
         <commons-version>1.0.2-1</commons-version>
         <guava-version>18.0</guava-version>
         <jetty-version>9.2.10.v20150310</jetty-version>
-        <javaVersion>1.7</javaVersion>
+        <javaVersion>1.8</javaVersion>
         <monitoring-api-version>1.0.3-1</monitoring-api-version>
         <monitoring-jmx-lib-version>1.0.3-1</monitoring-jmx-lib-version>
     </properties>
